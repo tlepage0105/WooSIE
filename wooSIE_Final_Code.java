@@ -65,7 +65,7 @@ public class final_Code {
 		
 		try {
 		  //////This needs to be updated based on users settings///////
-		  lib.loadCalibrationFile("C:\\Users\\tlepa\\vnaJ.3.4\\calibration\\Tran_Cal_220801_New.cal");  
+		  lib.loadCalibrationFile("REPLACE WITH FULL CALIBRATION FILE PATH");  
 		  /////////////////////////////////////////////////////////////
 		  
 		  ////////These values are frequencies in Hertz to sweep through/////
