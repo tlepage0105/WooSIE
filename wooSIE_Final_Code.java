@@ -109,6 +109,7 @@ public class final_Code {
 		//Creating the midi message to send
 		ShortMessage myMsg = new ShortMessage();
 		long timeStamp = -1;
+		//This message is being sent over Midi port 1 and Midi CC port 51. 
 		myMsg.setMessage(176, 0, 50, midiPressure);
 		rcvr.send(myMsg, timeStamp);
 	}
